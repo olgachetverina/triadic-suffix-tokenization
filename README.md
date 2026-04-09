@@ -4,14 +4,17 @@ Official test implementation of TST - Triadic Suffix Tokenization Scheme formula
 
 # TST (Triadic Suffix Tokenization) Number Format Converter
 
-TST is a number format where digits are groupe with suffixes added to denote orders of magnitude.
+TST is a number format where digits are grouped with suffixes added to denote orders of magnitude.
 
-In this realisation:
+In this implementation:
+
+- Both cases are available - Option A and Option B - separated and concatenated suffixes.
+- This is suffix notation, according to Section 4 of the paper. As noted there, prefixes are not much different, and there is no difference in the case of embedding in Option B.
+- We assume that "." separates the decimal part.
+- Zero padding was added since it was found that in the prompt it makes a big difference. However, when using an embedding with Option B the difference should disappear.
+- We split only into triads, though other splitting schemes could also be checked. This concerns the extra vocabulary size and the number of tokens in the sequence - should go along with best performance.
 - We use letters, not special tokens.
-- It is suffix notation here, according to Section 4 of the paper. Thus, as it is noted there, prefixes are not much difference.
-- We suppose that "." separates the decimal part.
-- Zero padding was added since it was found out that in prompt it is a big difference. Although when using an embedding the difference should disappear.
-
+  
 
 ## TST Format
 
