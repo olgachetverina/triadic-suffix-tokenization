@@ -1,3 +1,16 @@
+# ============================================================================
+# TST Number Format Converter
+# Triadic Suffix Tokenization scheme for numerical reasoning
+#
+# Author: Olga Chetverina (2026)
+# Article: "A Triadic Suffix Tokenization Scheme for Numerical Reasoning"
+# DOI: 10.5281/zenodo.18999577
+# License: MIT 
+#
+# If you use this code or the TST scheme, please cite the article:
+# https://doi.org/10.5281/zenodo.18999577
+# ============================================================================
+
 import re
 
 def pad_fraction_group(group: str, target_length: int = 3) -> str:
