@@ -1,5 +1,5 @@
 # triadic-suffix-tokenization
-Official test implementation of TST - Triadic Suffix Tokenization Scheme formulated in the paper 
+Official test implementation of TST - a triadic suffix tokenization scheme formulated in the paper 
 
 "A Triadic Suffix Tokenization Scheme for Numerical Reasoning" 
 
