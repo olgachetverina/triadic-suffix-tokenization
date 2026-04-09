@@ -108,6 +108,10 @@ Chinese numbering system groups digits by 4 (万 - wàn = 10,000, 亿 - yì = 10
 | `1234.5678.1234` | `123456781234` | `123b 456m 781k 234` |
 | `1234,5678.1234` | `12345678.1234` | `12m 345k 678 . 123p 400pp` |
 
+** tst_example.py **
+
+Runs a bunch of expamples from different formats.
+
 **Note:** For Chinese format, when decimal point (dot) is present, it serves as the decimal separator. Commas or dots between groups are thousand separators.
 
 ### For numbers with currency
