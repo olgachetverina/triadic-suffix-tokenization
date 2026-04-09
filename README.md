@@ -182,7 +182,7 @@ Finds all numbers in text and replaces them with TST format.
 
 ## Vocabulary Specification (`tst_vocab.json`)
 
-The repository includes a complete vocabulary of **10,000 fixed tokens** designed for seamless integration into LLM embedding layers:
+The repository includes a complete vocabulary of **10,000 fixed tokens** designed for seamless integration into LLM embedding layers (plus 1000 base just in case):
 
 *   **Standard Integers:** `0` to `999` (base units).
 *   **Positive Magnitudes:** `0k`–`999k`, `0m`–`999m`, `0b`–`999b`, `0t`–`999t`, `0q`–`999q`.
