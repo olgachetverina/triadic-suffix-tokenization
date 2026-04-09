@@ -6,12 +6,14 @@ Official test implementation of TST - Triadic Suffix Tokenization Scheme formula
 
 TST is a number format where digits are grouped with suffixes added to denote orders of magnitude.
 
+
 In this implementation:
 
 - Both cases are available - Option A and Option B - separated and concatenated suffixes.
 - This is suffix notation, according to Section 4 of the paper. As noted there, prefixes are not much different, and there is no difference in the case of embedding in Option B.
 - We assume that "." separates the decimal part.
-- Zero padding (dicussed in Section 6.2 ) was added since it was found that in the prompt it makes a big difference. However, when using an embedding with Option B the difference should disappear.
+- Zero padding (discussed in Section 6.2) was added since it was found that in the prompt it makes a big difference. However, when using an embedding with Option B the difference should disappear:
+  0.19 -> 0 . 190p ; 0.9 -> 0 . 900p
 - We split only into triads, though other splitting schemes could also be checked. This concerns the extra vocabulary size and the number of tokens in the sequence - should go along with best performance.
 - We use letters, not special tokens.
   
