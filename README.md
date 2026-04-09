@@ -1,6 +1,10 @@
 # triadic-suffix-tokenization
 Official test implementation of TST - Triadic Suffix Tokenization Scheme formulated in https://doi.org/10.5281/zenodo.18999577 
 
+If you use this code or scheme, please cite the initial work:
+Olga Chetverina (2025) "A Triadic Suffix Tokenization Scheme for Numerical Reasoning"
+DOI 10.5281/zenodo.18999577
+
 
 # TST (Triadic Suffix Tokenization) Number Format Converter
 
