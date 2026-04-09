@@ -17,6 +17,20 @@ If you use this code or the TST scheme, please cite:
   url          = {https://doi.org/10.5281/zenodo.18999577}
 }
 
+
+<details>
+<summary><b>BibTeX entry</b></summary>
+
+```bibtex
+@misc{chetverina2025tst,
+  author       = {Olga Chetverina},
+  title        = {A Triadic Suffix Tokenization Scheme for Numerical Reasoning},
+  year         = {2025},
+  doi          = {10.5281/zenodo.18999577},
+  url          = {https://doi.org/10.5281/zenodo.18999577}
+}
+</details> ```
+
 # TST (Triadic Suffix Tokenization) Number Format Converter
 
 TST is a number format where digits are grouped with suffixes added to denote orders of magnitude.
