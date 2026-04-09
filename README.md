@@ -9,14 +9,13 @@ If you use this code or the TST scheme, please cite:
 *"A Triadic Suffix Tokenization Scheme for Numerical Reasoning"*  
 **DOI: 10.5281/zenodo.18999577**
 
-```bibtex
 @misc{chetverina2025tst,
   author       = {Olga Chetverina},
   title        = {A Triadic Suffix Tokenization Scheme for Numerical Reasoning},
   year         = {2025},
   doi          = {10.5281/zenodo.18999577},
   url          = {https://doi.org/10.5281/zenodo.18999577}
-}``
+}
 
 # TST (Triadic Suffix Tokenization) Number Format Converter
 
