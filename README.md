@@ -82,6 +82,8 @@ Space between digits and suffix:
 - Commas, spaces, and apostrophes are treated as thousand separators and removed
 - This ensures unambiguous parsing: in regular numbers, dot is always fractional
 
+tst_example.py - You could just run it to see convertion of some expamples from different formats (was used for testing).
+
 **Examples:**
 | Input | TST Result |
 |-------|------------|
@@ -103,10 +105,6 @@ Indian numbering system uses grouping: first group 1-3 digits, then groups of 2 
 Chinese numbering system groups digits by 4 (万 - wàn = 10,000, 亿 - yì = 100,000,000).
 
 **Examples:**
-
-**tst_example.py**
-You could just run is to see convertion of some expamples from different formats (was used for testing).
-
 
 | Input | Normalized | TST Result |
 |-------|------------|------------|
