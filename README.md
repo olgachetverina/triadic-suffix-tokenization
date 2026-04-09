@@ -103,14 +103,16 @@ Indian numbering system uses grouping: first group 1-3 digits, then groups of 2 
 Chinese numbering system groups digits by 4 (万 - wàn = 10,000, 亿 - yì = 100,000,000).
 
 **Examples:**
+
+**tst_example.py**
+You could just run is to see convertion of some expamples from different formats (was used for testing).
+
+
 | Input | Normalized | TST Result |
 |-------|------------|------------|
 | `1234.5678.1234` | `123456781234` | `123b 456m 781k 234` |
 | `1234,5678.1234` | `12345678.1234` | `12m 345k 678 . 123p 400pp` |
 
-** tst_example.py **
-
-Runs a bunch of expamples from different formats.
 
 **Note:** For Chinese format, when decimal point (dot) is present, it serves as the decimal separator. Commas or dots between groups are thousand separators.
 
