@@ -32,7 +32,9 @@ In this implementation:
 - This is suffix notation, according to Section 4 of the paper. As noted there, prefixes are not much different, and there is no difference in the case of embedding in Option B.
 - We assume that "." separates the decimal part.
 - Zero padding (discussed in Section 6.2) was added since it was found that in the prompt it makes a big difference:
+  
   0.19 -> 0 . 190p ; 0.9 -> 0 . 900p
+
   However, when using an embedding with Option B the difference should disappear.
 - We split only into triads, though other splitting schemes could also be checked. This concerns the extra vocabulary size and the number of tokens in the sequence - should go along with best performance.
 - We use letters, not special tokens.
