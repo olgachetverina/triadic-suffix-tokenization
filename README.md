@@ -4,7 +4,14 @@ Official test implementation of TST - Triadic Suffix Tokenization Scheme formula
 
 # TST (Triadic Suffix Tokenization) Number Format Converter
 
-TST is a number format where digits are grouped in threes with letter suffixes to denote orders of magnitude.
+TST is a number format where digits are groupe with suffixes added to denote orders of magnitude.
+
+In this realisation:
+- We use letters, not special tokens.
+- It is suffix notation here, according to Section 4 of the paper. Thus, as it is noted there, prefixes are not much difference.
+- We suppose that "." separates the decimal part.
+- Zero padding was added since it was found out that in prompt it is a big difference. Although when using an embedding the difference should disappear.
+
 
 ## TST Format
 
@@ -121,6 +128,30 @@ Minus sign is preserved before the number:
 - Python 3.6 or higher
 - Standard library only (no external packages required)
 
+## API Functions
+
+### `tst_format_number(number_str, group_size=3, compact_suffix=True)`
+
+Converts a single number string to TST format.
+
+**Parameters:**
+- `number_str` (str): Number string (may include currency, percent, separators)
+- `group_size` (int): Number of digits per group (default 3)
+- `compact_suffix` (bool): Suffix formatting mode
+
+**Returns:** (str) Number in TST format
+
+### `tst_transform_text(text, group_size=3, compact_suffix=True)`
+
+Finds all numbers in text and replaces them with TST format.
+
+**Parameters:**
+- `text` (str): Input text
+- `group_size` (int): Number of digits per group (default 3)
+- `compact_suffix` (bool): Suffix formatting mode
+
+**Returns:**  (str) Text with numbers converted to TST format
+
 ## Usage
 
 ```python
@@ -130,3 +161,5 @@ text = "The price is $12,345.67 and 23.5%"
 result = tst_transform_text(text, compact_suffix=True)
 print(result)
 # The price is $ 12k 345 . 670p and 23 . 500p %
+
+
