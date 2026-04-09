@@ -1,0 +1,13 @@
+yaml
+
+cff-version: 1.2.0
+message: "If you use thos method of code, please cite it as below."
+authors:
+ - family-mames: "Chetverina"
+   given-names: "Olga"
+   orchid: https://orcid.org/0000-0003-4924-8130
+title: "A Triadic Suffix Tokenization Scheme for Numerical Reasoning"
+version: 1.1.0
+doi: 10.5281/zenodo.18999577
+date-released: 2025-03-13
+url: "https://github.com/olgachetverina/triadic-suffix-tokenization"  
