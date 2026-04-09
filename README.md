@@ -7,7 +7,7 @@ Official test implementation of TST - a triadic suffix tokenization scheme formu
 
 If you use this code or the TST scheme, please cite:
 
-**Olga Chetverina (2025)**  
+**Olga Chetverina (march 13, 2025)**  
 *"A Triadic Suffix Tokenization Scheme for Numerical Reasoning"*  
 **DOI: 10.5281/zenodo.18999577**
 
