@@ -9,7 +9,7 @@ If you use this code or the TST scheme, please cite:
 
 **Olga Chetverina**  
 *"A Triadic Suffix Tokenization Scheme for Numerical Reasoning"*  
-**DOI: 10.5281/zenodo.18999577**
+**[10.5281/zenodo.18999577](https://doi.org/10.5281/zenodo.18999577)**
 
 @misc{chetverina2025tst,
   author       = {Olga Chetverina},
