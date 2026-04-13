@@ -29,6 +29,7 @@ TST is a number format where digits are grouped with suffixes added to denote or
 In this implementation:
 
 - Both cases are available - Option A and Option B - separated and concatenated suffixes.
+  Although in a production environment Option B numbers are mapped directly to magnitude-aware tokens, the suffix-based notation is effective during the experimental stage. It allows for a modular testing workflow: a researcher can implement the parser separately and simply expand the model’s vocabulary, evaluating the scheme’s impact without deep modifications to the underlying tokenization engine.
 - This is suffix notation, according to Section 4 of the paper. As noted there, prefixes are not much different, and there is no difference in the case of embedding in Option B.
 - We assume that "." separates the decimal part.
 - Zero padding (discussed in Section 6.2) was added since it was found that in the prompt it makes a big difference:
