@@ -6,6 +6,6 @@ authors:
    orchid: "https://orcid.org/0000-0003-4924-8130"
 title: "A Triadic Suffix Tokenization Scheme for Numerical Reasoning"
 version: 1.1.0
-doi: 10.5281/zenodo.18999577
-date-released: 2026-03-13
-url: "https://github.com/olgachetverina/triadic-suffix-tokenization"  
+doi: 10.48550/arXiv.2604.11582
+date-released: 2026-04-13
+url: "https://doi.org/10.48550/arXiv.2604.11582"  
