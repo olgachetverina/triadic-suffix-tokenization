@@ -9,16 +9,21 @@ If you use this code or the TST scheme, please cite:
 
 **Olga Chetverina**  
 *"A Triadic Suffix Tokenization Scheme for Numerical Reasoning"*  
-**[10.5281/zenodo.18999577](https://doi.org/10.5281/zenodo.18999577)**
+[10.48550/arXiv.2604.11582](https://doi.org/10.48550/arXiv.2604.11582)
 
-@misc{chetverina2026tst,
-  author       = {Olga Chetverina},
-  title        = {A Triadic Suffix Tokenization Scheme for Numerical Reasoning},
-  year         = {2026},
-  doi          = {10.5281/zenodo.18999577},
-  url          = { https://doi.org/10.5281/zenodo.18999577 }
+It has a formalization of the Generalized Suffix Tokenization (GST) algorithm with a flexible group size parameter N.
+
+First vesrion of idea was printed 13.03.2026 at
+https://doi.org/10.5281/zenodo.18999577
+
+@article{chetverina2026tst,
+  title={A Triadic Suffix Tokenization Scheme for Numerical Reasoning},
+  author={Chetverina, Olga},
+  journal={arXiv preprint arXiv:2604.11582},
+  year={2026},
+  doi={10.48550/arXiv.2604.11582},
+  url={https://doi.org}
 }
-
 
 
 # TST (Triadic Suffix Tokenization) Number Format Converter
